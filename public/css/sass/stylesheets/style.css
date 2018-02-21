@@ -1,0 +1,543 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/* line 67, ../sass/style.scss */
+body {
+  min-width: 768px;
+  width: 100%;
+  font-family: 'Noto Sans TC','Josefin Sans', sans-serif;
+}
+/* line 71, ../sass/style.scss */
+body h1 {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 72, ../sass/style.scss */
+body h2 {
+  font-size: 20px;
+}
+/* line 73, ../sass/style.scss */
+body h3 {
+  font-size: 16px;
+}
+/* line 74, ../sass/style.scss */
+body p {
+  font-size: 14px;
+}
+/* line 75, ../sass/style.scss */
+body span {
+  font-size: 14px;
+}
+/* line 77, ../sass/style.scss */
+body footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  background-image: linear-gradient(to top, #f8f8f8 0, #f0f0f0 100%);
+}
+/* line 82, ../sass/style.scss */
+body footer.login_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* line 88, ../sass/style.scss */
+body .text_left {
+  text-align: left !important;
+}
+/* line 91, ../sass/style.scss */
+body .prompt_body {
+  top: 0;
+  left: 0;
+  background-color: rgba(55, 55, 55, 0.5);
+  width: 100%;
+}
+/* line 96, ../sass/style.scss */
+body .prompt_body .prompt_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 300px;
+  height: 175px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(15, 37, 64, 0.6);
+  text-align: center;
+  border-bottom: 10px solid #bce8f1;
+}
+/* line 110, ../sass/style.scss */
+body .prompt_body .prompt_box h2 {
+  margin-top: 30px;
+}
+/* line 113, ../sass/style.scss */
+body .prompt_body .prompt_box h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 116, ../sass/style.scss */
+body .prompt_body .prompt_box .btn_yes {
+  margin-top: 5px;
+}
+/* line 122, ../sass/style.scss */
+body.login_body {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-color: #d9edf7;
+}
+/* line 128, ../sass/style.scss */
+body .login_page {
+  padding: 0px !important;
+}
+/* line 136, ../sass/style.scss */
+body .login_page .form_signin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -115px 0 0 -150px;
+  box-shadow: 0px 0px 10px 2px rgba(15, 37, 64, 0.3) inset;
+  max-width: 330px;
+  padding: 30px !important;
+  background-color: #428bca;
+  border-radius: 5px;
+}
+/* line 41, ../sass/style.scss */
+body .login_page .form_signin h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 147, ../sass/style.scss */
+body .login_page .form_signin h1 {
+  text-align: center;
+  color: #eeeeee;
+}
+/* line 151, ../sass/style.scss */
+body .login_page .form_signin .form_signin_heading {
+  margin-bottom: 10px;
+}
+/* line 154, ../sass/style.scss */
+body .login_page .form_signin .error_box {
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: red;
+}
+/* line 159, ../sass/style.scss */
+body .login_page .form_signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px !important;
+  font-size: 16px;
+}
+/* line 167, ../sass/style.scss */
+body .login_page .form_signin .form-control:focus {
+  z-index: 2;
+}
+/* line 171, ../sass/style.scss */
+body .login_page .form_signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/* line 176, ../sass/style.scss */
+body .login_page .form_signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* line 188, ../sass/style.scss */
+body .panel-body .test_style {
+  padding: 15px;
+}
+/* line 191, ../sass/style.scss */
+body .panel-body .btn_group {
+  padding: 10px !important;
+}
+/* line 193, ../sass/style.scss */
+body .panel-body .btn_group button, body .panel-body .btn_group a {
+  margin-left: 10px;
+}
+/* line 196, ../sass/style.scss */
+body .panel-body .btn_group form {
+  margin-bottom: 0;
+}
+/* line 200, ../sass/style.scss */
+body .panel-body .panel_subtitle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #dddddd;
+}
+/* line 204, ../sass/style.scss */
+body .panel-body .panel_subtitle.appversion_style p {
+  margin: 0;
+}
+/* line 208, ../sass/style.scss */
+body .panel-body .panel_subtitle form {
+  margin-bottom: 0;
+}
+/* line 211, ../sass/style.scss */
+body .panel-body .panel_subtitle .sort_check {
+  cursor: pointer;
+}
+/* line 214, ../sass/style.scss */
+body .panel-body .panel_subtitle div {
+  border-right: 2px solid #ffffff;
+  text-align: center;
+}
+/* line 217, ../sass/style.scss */
+body .panel-body .panel_subtitle div:last-child {
+  border-right: none;
+}
+/* line 223, ../sass/style.scss */
+body .panel-body .panel_form p {
+  margin-bottom: 0;
+  padding: 20px !important;
+  text-align: center;
+}
+/* line 228, ../sass/style.scss */
+body .panel-body .panel_form form {
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+/* line 232, ../sass/style.scss */
+body .panel-body .panel_form form:hover {
+  background-color: #428bca;
+}
+/* line 235, ../sass/style.scss */
+body .panel-body .panel_form form.select_case {
+  background-color: #337ab7;
+  color: #ffffff;
+}
+/* line 240, ../sass/style.scss */
+body .panel-body .panel_form .m_clear, body .panel-body .panel_form .s_clear, body .panel-body .panel_form .b_clear {
+  margin: 10px;
+}
+/* line 243, ../sass/style.scss */
+body .panel-body .panel_form .property_code {
+  margin-bottom: 20px;
+}
+/* line 245, ../sass/style.scss */
+body .panel-body .panel_form .property_code .qas_box {
+  height: 200px;
+}
+/* line 249, ../sass/style.scss */
+body .panel-body .panel_form label.check_bg {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+/* line 253, ../sass/style.scss */
+body .panel-body .panel_form .qas_box {
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* line 259, ../sass/style.scss */
+body .panel-body .panel_form .qas_box .title {
+  background-color: #dddddd;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-left: 2px solid #999999;
+}
+/* line 263, ../sass/style.scss */
+body .panel-body .panel_form .qas_box .title:first-child {
+  border-style: none;
+}
+/* line 267, ../sass/style.scss */
+body .panel-body .panel_form .qas_box .label_style {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+/* line 271, ../sass/style.scss */
+body .panel-body .panel_form .qas_box .align_style {
+  text-align: center;
+}
+/* line 274, ../sass/style.scss */
+body .panel-body .panel_form .qas_box .property_result {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+/* line 276, ../sass/style.scss */
+body .panel-body .panel_form .qas_box .property_result:hover {
+  background-color: #eeeeee;
+}
+/* line 281, ../sass/style.scss */
+body .panel-body .panel_form .textarea_box {
+  margin-bottom: 20px;
+}
+/* line 283, ../sass/style.scss */
+body .panel-body .panel_form .textarea_box textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* line 288, ../sass/style.scss */
+body .panel-body .panel_form .topNews_form {
+  border-bottom: 1px solid #ddd;
+}
+/* line 290, ../sass/style.scss */
+body .panel-body .panel_form .topNews_form:last-child {
+  border-style: none;
+}
+/* line 296, ../sass/style.scss */
+body .panel-body .panel_detail {
+  padding: 15px !important;
+}
+/* line 299, ../sass/style.scss */
+body .panel-body .panel_detail.hostlistdetail_setting ul {
+  overflow: hidden;
+  list-style-type: none;
+}
+/* line 303, ../sass/style.scss */
+body .panel-body .panel_detail.hostlistdetail_setting ul li span {
+  cursor: pointer;
+}
+/* line 308, ../sass/style.scss */
+body .panel-body .panel_detail.hostlistdetail_setting .test_height {
+  height: 0;
+}
+/* line 315, ../sass/style.scss */
+body .panel-body .panel_detail .task_interval .change_block.everyweek > div, body .panel-body .panel_detail .task_interval .change_block.specifymonth > div, body .panel-body .panel_detail .task_interval .change_block.everymonth > div {
+  margin-bottom: 5px;
+}
+/* line 319, ../sass/style.scss */
+body .panel-body .panel_detail .task_interval .change_block label {
+  font-weight: 400;
+}
+/* line 322, ../sass/style.scss */
+body .panel-body .panel_detail .task_interval .change_block .select_elems {
+  width: 100%;
+  background-color: #fff;
+  border: 1px #ccc solid;
+  position: absolute;
+  z-index: 1;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 332, ../sass/style.scss */
+body .panel-body .panel_detail .task_interval .change_block .select_elems li {
+  padding-left: 15px;
+}
+/* line 334, ../sass/style.scss */
+body .panel-body .panel_detail .task_interval .change_block .select_elems li:hover {
+  background-color: #ccc;
+  color: #333;
+}
+/* line 338, ../sass/style.scss */
+body .panel-body .panel_detail .task_interval .change_block .select_elems li label {
+  width: 100%;
+}
+/* line 340, ../sass/style.scss */
+body .panel-body .panel_detail .task_interval .change_block .select_elems li label span {
+  margin-left: 5px;
+}
+/* line 348, ../sass/style.scss */
+body .panel-body .panel_detail .pwd_label {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 353, ../sass/style.scss */
+body .panel-body .panel_detail .ud_form .error_box {
+  text-align: center;
+  color: red;
+}
+/* line 358, ../sass/style.scss */
+body .panel-body .panel_detail .error_style {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  color: red;
+}
+/* line 363, ../sass/style.scss */
+body .panel-body .panel_detail .ua_box {
+  height: 100px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* line 369, ../sass/style.scss */
+body .panel-body .panel_detail .ua_box label {
+  display: block;
+}
+/* line 374, ../sass/style.scss */
+body .panel-body .panel_detail .news_form p {
+  color: red;
+}
+/* line 378, ../sass/style.scss */
+body .panel-body .panel_detail .appAD_subtitle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: 2px solid #aaa;
+}
+/* line 382, ../sass/style.scss */
+body .panel-body .panel_detail .appAD_subtitle div {
+  border-left: 2px solid #aaa;
+}
+/* line 384, ../sass/style.scss */
+body .panel-body .panel_detail .appAD_subtitle div:first-child {
+  border-style: none;
+}
+/* line 389, ../sass/style.scss */
+body .panel-body .panel_detail .appAD_picDetail {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 391, ../sass/style.scss */
+body .panel-body .panel_detail .appAD_picDetail input {
+  text-align: center;
+}
+/* line 394, ../sass/style.scss */
+body .panel-body .panel_detail .appAD_picDetail div {
+  text-align: center;
+}
+/* line 397, ../sass/style.scss */
+body .panel-body .panel_detail .appAD_picDetail #aadd_sort {
+  border-width: 0;
+  width: 30px;
+}
+/* line 401, ../sass/style.scss */
+body .panel-body .panel_detail .appAD_picDetail #aadd_imagename {
+  border-width: 0;
+}
+/* line 405, ../sass/style.scss */
+body .panel-body .panel_detail .text_setting {
+  text-align: center;
+}
+/* line 407, ../sass/style.scss */
+body .panel-body .panel_detail .text_setting .control-label {
+  text-align: center;
+  padding-bottom: 5px;
+}
+/* line 412, ../sass/style.scss */
+body .panel-body .panel_detail .btn_position_reset {
+  position: relative;
+}
+/* line 414, ../sass/style.scss */
+body .panel-body .panel_detail .btn_position_reset .btn_position {
+  padding-top: 62px;
+  text-align: center;
+}
+/* line 419, ../sass/style.scss */
+body .panel-body .panel_detail .select_customer, body .panel-body .panel_detail .select_advert {
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* line 425, ../sass/style.scss */
+body .panel-body .panel_detail .select_customer label, body .panel-body .panel_detail .select_advert label {
+  width: 100%;
+  font-weight: 400;
+}
+/* line 431, ../sass/style.scss */
+body .panel-body .panel_detail .select_advert .sad_style {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 439, ../sass/style.scss */
+body .panel-body .panel_detail #advertSolution_d .cd_style {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 446, ../sass/style.scss */
+body .panel-body .panel_detail ul li a {
+  color: #333333;
+}
+/* line 450, ../sass/style.scss */
+body .panel-body .panel_detail ul li.active a {
+  font-weight: 700;
+}
+/* line 460, ../sass/style.scss */
+body .panel-footer ul {
+  margin: 10px 0;
+}
+/* line 466, ../sass/style.scss */
+body .index_setting {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+}
+/* line 471, ../sass/style.scss */
+body .test_setting ul {
+  overflow: hidden;
+  list-style-type: none;
+}
+/* line 475, ../sass/style.scss */
+body .test_height {
+  height: 0;
+}
+/* line 481, ../sass/style.scss */
+body .p_t_b {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* line 484, ../sass/style.scss */
+body .p_l_r {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 487, ../sass/style.scss */
+body .p_l_r_dis {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 490, ../sass/style.scss */
+body .p_all_dis {
+  padding: 0px !important;
+}
+/* line 493, ../sass/style.scss */
+body .dis_none {
+  display: none;
+}
+/* line 496, ../sass/style.scss */
+body .m_b_dis {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 767px) {
+  /* line 504, ../sass/style.scss */
+  body .navbar-nav > li {
+    float: left;
+  }
+  /* line 507, ../sass/style.scss */
+  body .btn_m_t {
+    margin-top: 10px;
+  }
+}
+/* line 512, ../sass/style.scss */
+body .pagination > .active > a, body .pagination > .active > span, body .pagination > .active > a:hover, body .pagination > .active > span:hover, body .pagination > .active > a:focus, body .pagination > .active > span:focus {
+  background-color: #265a88;
+  border-color: #265a88;
+}
+/* line 516, ../sass/style.scss */
+body .pagination > li > a:hover, body .pagination > li > span:hover, body .pagination > li > a:focus, body .pagination > li > span:focus {
+  color: #265a88;
+}
+/* line 519, ../sass/style.scss */
+body .pagination > li > a, body .pagination > li > span {
+  color: #265a88;
+}
+/* line 522, ../sass/style.scss */
+body .navbar-brand {
+  padding: 0;
+}
+/* line 525, ../sass/style.scss */
+body .form-horizontal .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
